@@ -23,6 +23,7 @@ RUN apt-get update && \
     php7.4-fpm \
     php7.4-cli \
     php7.4-mbstring \
+    php7.4-memcached \
     php7.4-mysql \
     php7.4-redis \
     php7.4-xdebug \
