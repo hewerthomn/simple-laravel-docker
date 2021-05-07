@@ -13,7 +13,7 @@ services:
 
   myapp:
     tty: true
-    image: simple-laravel-docker
+    image: simple-laravel-docker:7.4
     stdin_open: true
     environment:
       - DB_HOST=mariadb
