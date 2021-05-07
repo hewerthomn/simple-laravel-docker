@@ -10,6 +10,8 @@ services:
       - MARIADB_USER=my_user
       - MARIADB_DATABASE=my_database
       - MARIADB_PASSWORD=
+    networks:
+      - app_net
 
   myapp:
     tty: true
@@ -27,3 +29,9 @@ services:
     volumes:
       - ./:/var/www/html
       - /var/cache:/var/cache
+    networks:
+      - app_net
+
+networks:
+  app_net:
+    driver: bridge
