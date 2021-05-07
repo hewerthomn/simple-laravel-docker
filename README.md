@@ -1,8 +1,7 @@
 # Simple Laravel Docker
 
-----------
-
 A simple *yet* Laravel Docker running on **Ubuntu 20.04 LTS** and serving **PHP 7.4** with **nginx**, with **Node. js v12** and **Composer 2** .
+
 
 ## Clone and build
 
