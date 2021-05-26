@@ -21,7 +21,6 @@ RUN apt-get update && \
     unzip \
     php7.4 \
     php7.4-fpm \
-    php7.4-curl \
     php7.4-cli \
     php7.4-curl \
     php7.4-mbstring \
